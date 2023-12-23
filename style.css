@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Sacramento&family=Teko&display=swap');
+*
+{
+	scroll-behavior: auto!important;
+}
+header
+{
+	font-family: 'Dhurjati', sans-serif;
+font-family: 'Teko', sans-serif;
+background-color: olive;
+height: 75px;
+width: 100%;
+padding: 10px;
+position: fixed;
+top: 0;
+display: inline-flex;
+justify-content: space-between;
+z-index: 9999;
+}
+
+h2
+{
+	font-family: 'Teko', sans-serif;
+	color: whitesmoke;
+	font-size:50px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+li{
+	display: block;
+	list-style-type: none;
+	float: right;
+	padding: 20px;
+	font-size: 40px;
+	font-weight: 20px;
+	margin-bottom:200px ;
+	position: sticky;
+	top: 0;
+
+}
+
+
+.set1
+{
+	border: 3px double ;
+	border-color: black;
+	height: 500px;
+	background-image: url("bg1.avif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+
+
+}
+.set2
+{
+	border: 3px double;
+	height: 500px;
+	width: 100%;
+	border-color: black;
+    border-width: 3px;
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.set3
+{
+	border: 3px double;
+	border-color: black;
+	border-width: 2px;
+	height: 500px;
+	width: 100%;
+	text-align: center;
+
+
+}
+.faci
+{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+
+}
+#mcoi
+{
+	height: 250px;
+	width: 300px;
+
+}
+
+img{
+	height: 250px;
+	width: 300px;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+
+}
+.header
+{
+	margin-bottom: 20px;
+}
+button
+{
+	background-color: black;
+	padding: 30px;
+	margin: 20px;
+	position: relative;
+	color: floralwhite;
+	left: 85px;
+	top: 65px;
+	border-radius: 25%;
+
+}
+button:hover
+{
+	background-color: white;
+	padding: 30px;
+	color: black;
+	scroll-behavior: smooth;
+
+}
+
+li:hover
+{
+	background-color: black;
+	color: floralwhite;
+	padding: 10px;
+	opacity: 0.5;
+
+}
+img:hover
+{
+margin: 20px;
+
+	
+}
+/*****/
+@media and (max-width:600px)
+{
+
+}
+
+#mantra
+{
+	color: black;
+	font-weight: 2px;
+	position: relative;
+	left: 60px;
+	top: 95px;
+}
+#buis
+{
+	color: black;
+
+
+}
+/*******/
+
+.plan1
+{
+	height: 500px;
+	width: 100%;
+	border-color: white;
+	border-width: 2px;
+	border: 3px double;
+	background-image: url("pbgq.jpg");
+     background-size: 100%;
+	background-repeat: no-repeat;
+
+
+}
+#quartely
+{
+	height: 300px;
+	width: 40%;
+	border-color: black;
+	border-radius: 10%;
+	border: 2px solid;
+	position: relative;
+	left: 15%;
+    top: 19%;
+    background-color: white;
+    text-align: center;
+   
+
+}
+#quartely:hover
+{
+	background-color: black;
+}
+#stp{
+	position: relative;
+	top: 30%;
+}
+
+#stppr
+{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+
+}
+#stpd
+{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+
+}
+.plan2
+{
+	height: 600px;
+	width: 100%;
+	border: 2px solid;
+	border-color: white;
+	background-image: url("pbga.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-size: 100%;
+
+}
+#half
+{
+	height: 300px;
+	width: 40%;
+	border: 2px solid;
+	border-color: black;
+	border-radius: 10%;
+	position: relative;
+	left: 58%;
+	top: 19%;
+	background-color: white;
+	text-align: center;
+}
+#htp{
+	position: relative;
+	top: 30%;
+}
+
+#htppr
+{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+
+}
+#htpd
+{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+
+}
+#half:hover
+{
+	background-color: black;
+}
+
+.plan3
+{
+	height: 600px;
+	width: 100%;
+	border: 2px solid;
+	border-color: white;
+	background-image: url("pbgh.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-size: 100%;
+
+}
+#annual
+{
+	height: 300px;
+	width: 40%;
+	border: 2px solid;
+	border-color: black;
+	border-radius: 10%;
+	position: relative;
+	left: 2%;
+	top: 19%;
+	background-color: white;
+	text-align: center;
+}
+#atp{
+	position: relative;
+	top: 30%;
+}
+
+#atppr
+{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+
+}
+#atpd
+{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+
+}
+#annual:hover
+{
+	background-color: black;
+}
+/*************************/
+/**index***/
+@media screen and (max-width:600px)
+{
+	
+	header
+{
+	font-family: 'Dhurjati', sans-serif;
+font-family: 'Teko', sans-serif;
+background-color: olive;
+height: 10rem;
+width: 100%rem;
+padding: 10px;
+position: sticky;
+top: 0;
+display: grid;
+justify-content: space-between;
+}
+h2
+{
+	font-family: 'Teko', sans-serif;
+	color: white;
+	font-size:30px;
+	padding: 5px;
+}
+li{
+	display: block;
+	list-style-type: none;
+	float: left;
+	padding: 20px;
+	font-size: 15px;
+	font-weight: 20px;
+	margin-bottom:200px ;
+	position: sticky;
+	top: 0;
+
+}
+li:hover
+{
+	background-color: whitesmoke;
+	color: black;
+	padding: 1px;
+	
+
+}
+.set1
+{
+	display: block;
+	border: 3px double ;
+	border-color: black;
+	height: 500px;
+	width: 100%;
+	background-image: url("bg1.avif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+
+
+
+}
+.set2
+{
+	border: 3px double;
+	height: 500px;
+	width: 100%;
+	border-color: black;
+    border-width: 3px;
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.set3
+{
+	border: 3px double;
+	border-color: black;
+	border-width: 2px;
+	height: 950px;
+	width: 100%;
+	text-align: center;
+	
+
+
+}
+.faci
+{
+	display: grid;
+	align-content: center;
+	justify-content: space-around;
+
+}
+.plan1
+{
+	height: 600px;
+	width: 100%;
+	border-color: white;
+	border-width: 2px;
+	border: 3px double;
+	background-image: url("pbgq.jpg");
+     background-size:cover;
+	background-repeat: no-repeat;
+
+
+}
+#quartely
+{
+	height: 350px;
+	border-color: black;
+	border-radius: 10%;
+	border: 2px solid;
+	position: relative;
+	left: 15%;
+    top: 2%;
+    background-color: white;
+    text-align: center;
+   
+
+}
+.plan2
+{
+	height: 400px;
+	width: 100%;
+	border: 2px solid;
+	border-color: white;
+	background-image: url("pbga.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+#half
+{
+	height: 300px;
+	width: 40%;
+	border: 2px solid;
+	border-color: black;
+	border-radius: 10%;
+	position: relative;
+	left: 58%;
+	top: 19%;
+	background-color: white;
+	text-align: center;
+}
+.plan3
+{
+	height: 600px;
+	width: 100%;
+	border: 2px solid;
+	border-color: white;
+	background-image: url("pbgh.jpg");
+	background-repeat: no-repeat;
+	background-size: 500px 800px;
+}
+#annual
+{
+	height: 400px;
+	width: 40%;
+	border: 2px solid;
+	border-color: black;
+	border-radius: 10%;
+	position: relative;
+	left: 2%;
+	top: 19%;
+	background-color: white;
+	text-align: center;
+}
+
+
+}

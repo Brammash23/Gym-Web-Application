@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Robust Fitness</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<header>
+		
+				<a href="index.html"><h1><i class="fa-solid fa-dumbbell fa-shake"></i>Robust Fitness<i class="fa-solid fa-dumbbell fa-shake"></i></h1></a>
+
+		<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="plans.html">MemberShip</a></li>
+				<li><a href="trainer.html">Trainers</a></li>
+				<li><a href="contact.html">Contact US</a></li>
+				
+			</ul>	
+	</header>
+<div class="form">
+	<div class="collect">
+		<h1 id="td"> Feel Free to Contact Us</h1>
+		<form>
+		<b>	Name </b> <input type="name" name="name" id="name" autocomplete="off"><br><br>
+		<b>Phone</b><input type="phone" name="phone" id="phn" autocomplete="off"><br><br>
+
+		<b>	Email</b>  <input type="email" name="email" id="ema" autocomplete="off"><br><br>
+		<b>Age</b><input type="age" name="age" id="age" autocomplete="off"><br><br>
+		<button id="btn" onclick="run()">Submit</button>
+		<h3>Contact Us On <a href=""><i class="fa-brands fa-instagram"></i></a></h3>
+
+	</form>
+
+	
+</div>
+	
+
+</div>
+
+<script type="text/javascript">
+	function run() {
+		const a = document.getElementById('name').value;
+		const b = document.getElementById('phn').value;
+		const c = document.getElementById('ema').value;
+		const d = document.getElementById('age').value;
+		const e = a.length;
+		const f = b.length;
+		const g = c.length;
+		const h = d.length;
+		if (e>0 && f>0 && g>0 && h>0)
+		 {
+		 		document.getElementById('td').innerHTML = 'Thanks For Interest,We Will Contact you Shortly';
+		 	    document.getElementById('td').style.color = "green";
+
+		 }
+		 else
+		 {
+		 	alert("please enter your Details")
+		 }
+	
+		
+	}
+	
+</script>
+
+
+
+	
+
+		
+		
+</body>
+</html>
