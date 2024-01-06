@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Teko&display=swap');
+pp@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Teko&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Sacramento&family=Teko&display=swap');
 *
 {
@@ -180,7 +180,7 @@ img
 
 
 }
-@media screen and (max-width:600px)
+@media screen and (max-width:550px)
 {
 	header
 {
